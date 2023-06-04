@@ -1,0 +1,74 @@
+html,
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+  text-align: left;
+  padding: 5px;
+}
+
+.detailscontainer {
+  width: 360px;
+  border: none;
+  padding: 50px;
+  margin: 20px;
+  border-radius: 10px;
+  background: #ded4e8;
+  position: absolute;
+  top: 20%;
+  left: 35%;
+}
+
+.middle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 20px;
+  margin-bottom: 25px;
+  border-radius: 30px;
+  background: #e8ba40;
+}
+
+#inputField {
+  flex: 1;
+  border: none;
+  outline: none;
+  background: transparent;
+  padding: 10px;
+}
+
+#inputField::placeholder {
+  color: #c7395f;
+}
+
+#addTODO {
+  height: 50px;
+  width: 50px;
+  vertical-align: middle;
+  font-size: 30px;
+  border-radius: 30px;
+  border: none;
+  outline: none;
+  background: #c7395f;
+  cursor: pointer;
+}
+
+.todos {
+  margin-top: 25px;
+}
+
+.paragraph-styling {
+  margin: 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.buttonx-style {
+  color: #c7395f;
+  border-radius: 30px;
+  background: #e8ba40;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
